@@ -11,7 +11,7 @@ match operation:
   print (f"The result is {num1 * num2}.")
  case _ if operation == "/":
   if num2 == 0:
-   print ("Cannot devide by 0")
+   print ("Cannot devide by zero.")
   else:
    print (f"The result is {num1 / num2}.")
  case _:
