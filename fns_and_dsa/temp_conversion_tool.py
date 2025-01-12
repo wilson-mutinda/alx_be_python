@@ -10,8 +10,6 @@ def convert_to_celsius(fahrenheit):
   Returns:
       The temperature converted to Celsius.
   """
-  # Demonstrate the use of the 'global' keyword (although not strictly needed here)
-  global FAHRENHEIT_TO_CELSIUS_FACTOR 
   return (fahrenheit - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR
 
 def convert_to_fahrenheit(celsius):
@@ -23,8 +21,6 @@ def convert_to_fahrenheit(celsius):
   Returns:
       The temperature converted to Fahrenheit.
   """
-  # Demonstrate the use of the 'global' keyword (although not strictly needed here)
-  global CELSIUS_TO_FAHRENHEIT_FACTOR 
   return celsius * CELSIUS_TO_FAHRENHEIT_FACTOR + 32
 
 # ... (rest of the code remains the same as in the previous response)
